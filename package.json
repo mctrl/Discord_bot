@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/index.js",
     "watch": "tsc -p tsconfig.json -w",
-    "test:mocha": "mocha -r ts-node/register \"tests/**/*.spec.ts\"",
+    "test:mocha": "mocha -r ts-node/register \"tests/mocha/**/*.spec.ts\"",
     "test:jest": "jest --watch"
   },
   "author": "",
